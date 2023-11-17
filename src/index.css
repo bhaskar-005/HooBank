@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.glow {
+        filter: drop-shadow(0.35rem 0.89rem 5.4rem rgba(122, 248, 248, 0.367));
+  }
+
+  .border{
+     border: 1px solid rgba(77, 78, 83, 0.27);
+  }
+
+  .pink__gradient {
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);
+  }
+  
+  .white__gradient {
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+  }
+  
